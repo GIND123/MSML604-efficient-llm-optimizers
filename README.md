@@ -17,7 +17,7 @@ Models: LLaMA 60M and 130M (GaLore benchmark configs)
 [Link to Colab Notebook](https://colab.research.google.com/drive/1WSh68iK5QhcZRTOIVR70v0zZxRWLVKOl?usp=sharing)
 
 **Running on Colab A100:**
-1. Open the notebook via the badge above or download `SinkGD_Analysis.ipynb`
+1. Open the notebook via the link above or download `SinkGD_Analysis.ipynb`
 2. Go to Runtime > Change runtime type > A100 GPU
 3. Install the dependiencies and restart the session
 4. Run Cell 2 to verify everything works
