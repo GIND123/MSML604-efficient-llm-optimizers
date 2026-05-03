@@ -10,8 +10,8 @@ This project tries 2 approaches:
 - Q-SinkGD: same idea, but the momentum buffer is quantized to INT8, bringing memory back down to ~1.5×. The key insight is that Sinkhorn normalization keeps the gradient distribution tight enough that INT8 quantization doesn't meaningfully hurt accuracy, unlike Adam's second moment, where embedding outliers break INT8 (the LLM.int8() problem).
 
 ## Setup
-**Hardware:** Google Colab A100-SXM4-40GB
-**Dataset:** C4 en in streaming mode (no disk download required)
+**Hardware:** Google Colab A100-SXM4-40GB  
+**Dataset:** C4 en in streaming mode (no disk download required)  
 **Models:** LLaMA 60M and 130M (GaLore benchmark configs)
 
 [Link to Colab Notebook](https://colab.research.google.com/drive/1WSh68iK5QhcZRTOIVR70v0zZxRWLVKOl?usp=sharing)
