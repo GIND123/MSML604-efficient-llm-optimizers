@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://em-content.zobj.net/source/apple/391/potable-water_1f6b0.png" width="120" /> </p> <h1 align="center">SinkGD</h1> <p align="center"> <strong>optimizer memory go down. perplexity stay same.</strong> </p> <p align="center"> <a href="https://colab.research.google.com/drive/1WSh68iK5QhcZRTOIVR70v0zZxRWLVKOl?usp=sharing"><img src="https://img.shields.io/badge/notebook-open%20in%20colab-F9AB00?style=flat&logo=googlecolab&logoColor=white" alt="Colab"></a> <img src="https://img.shields.io/badge/hardware-A100--SXM4--40GB-76B900?style=flat&logo=nvidia&logoColor=white" alt="Hardware"> <img src="https://img.shields.io/badge/dataset-C4%20en-blue?style=flat" alt="Dataset"> <img src="https://img.shields.io/badge/models-LLaMA%2060M%20%2F%20130M%20%2F%20350M-blueviolet?style=flat" alt="Models"> </p> <p align="center"> <a href="#what-it-is">What</a> • <a href="#variants">Variants</a> • <a href="#how-it-works">How</a> • <a href="#setup">Setup</a> • <a href="#results">Results</a> </p>
+<p align="center"> <img src="https://em-content.zobj.net/source/apple/391/potable-water_1f6b0.png" width="120" /> </p> <h1 align="center">SinkGD</h1> <p align="center"> <strong>optimizer memory go down. perplexity stay same.</strong> </p> <p align="center"> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WSh68iK5QhcZRTOIVR70v0zZxRWLVKOl?usp=sharing) <img src="https://img.shields.io/badge/hardware-A100--SXM4--40GB-76B900?style=flat&logo=nvidia&logoColor=white" alt="Hardware"> <img src="https://img.shields.io/badge/dataset-C4%20en-blue?style=flat" alt="Dataset"> <img src="https://img.shields.io/badge/models-LLaMA%2060M%20%2F%20130M%20%2F%20350M-blueviolet?style=flat" alt="Models"> </p> <p align="center"> <a href="#what-it-is">What</a> • <a href="#variants">Variants</a> • <a href="#how-it-works">How</a> • <a href="#setup">Setup</a> • <a href="#results">Results</a> </p>
 
 ---
 
@@ -58,7 +58,7 @@ Sinkhorn normalization keeps the gradient distribution tight enough that INT8 qu
 
 ## Run It
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1WSh68iK5QhcZRTOIVR70v0zZxRWLVKOl?usp=sharing)
+
 
 1. Open the notebook via the link above or download `SinkGD_Analysis.ipynb`
 2. Go to **Runtime → Change runtime type → A100 GPU**
