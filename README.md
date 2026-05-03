@@ -5,7 +5,7 @@ Fine-Tuning</h1> <p align="center"> <strong></strong> </p> <p align="center">
 
 ---
 
-Extending **SinkGD** with two momentum variants — **Hybrid-SinkGD** (BF16 EMA buffer) and **Q-SinkGD** (INT8 quantized buffer) — and benchmarking them against Adam, SGD, and vanilla SinkGD on LLaMA 60M/130M/350M pre-training on C4.
+Extending **SinkGD** with two momentum variants: **Hybrid-SinkGD** (BF16 EMA buffer) and **Q-SinkGD** (INT8 quantized buffer), and benchmarking them against Adam, SGD, and vanilla SinkGD on LLaMA 60M/130M/350M pre-training on C4.
 
 ## What It Is
 
