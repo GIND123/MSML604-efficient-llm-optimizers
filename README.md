@@ -1,5 +1,5 @@
 <p align="center"> <img src="assets/sink.png" width="120" /> </p> <h1 align="center">Improving SinkGD for Large Language Model
-Fine-Tuning</h1> <p align="center"> <strong></strong> </p> <p align="center">
+Fine-Tuning</h1> <p align="center"> <strong>can you have momentum without the memory?</strong> </p> <p align="center">
 <a href="https://colab.research.google.com/drive/1WSh68iK5QhcZRTOIVR70v0zZxRWLVKOl?usp=sharing" target="_blank"><img src="https://img.shields.io/badge/notebook-open%20in%20colab-F9AB00?style=flat&logo=googlecolab&logoColor=white" alt="Colab"></a> 
 <img src="https://img.shields.io/badge/hardware-A100--SXM4--40GB-76B900?style=flat&logo=nvidia&logoColor=white" alt="Hardware"> <img src="https://img.shields.io/badge/dataset-C4%20en-blue?style=flat" alt="Dataset"> <img src="https://img.shields.io/badge/models-LLaMA%2060M%20%2F%20130M-blueviolet?style=flat" alt="Models"> </p> <p align="center"> <a href="#what-it-is">What</a> • <a href="#variants">Variants</a> • <a href="#setup">Setup</a> • <a href="#run-it">Run It</a> • <a href="#results">Results</a> </p> 
 
