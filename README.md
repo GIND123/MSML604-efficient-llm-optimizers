@@ -44,7 +44,6 @@ To do this, we implement **SinkGD** and extend it with two momentum variants: **
 |---|---|---|---|
 |Optimizer memory|1×|~2×|~1.5×|
 |Token reduction to target PPL|baseline|10–15% fewer|10–15% fewer|
-|INT8 quantization error|—|—|negligible|
 
 Memory profiled via PyTorch CUDA memory snapshots. Convergence diagnostics include gradient norm trajectories and validation perplexity at fixed token budgets.
 
