@@ -7,7 +7,7 @@ Language Model Pre Training</h1> <p align="center"> <strong>stateless base + lig
 
 ## What It Is
 
-SinkGD normalizes each gradient matrix through alternating row-wise and column-wise Euclidean projections (the SR-Sinkhorn formulation), replacing Adam's moment statistics entirely. This cuts optimizer memory from **3× to 1×** model weights, achieving a 2× token efficiency improvement over Adam on LLaMA pretraining — with no optimizer state at all.
+SinkGD normalizes each gradient matrix through alternating row-wise and column-wise Euclidean projections (the SR-Sinkhorn formulation), replacing Adam's moment statistics entirely. This cuts optimizer memory from **3× to 1×** model weights, achieving a 2× token efficiency improvement over Adam on LLaMA pretraining, with no optimizer state at all.
 
 This project asks: **can we add momentum back on top of that, and keep memory low at the same time?**
 
