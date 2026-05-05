@@ -47,3 +47,5 @@ To do this, we implement **SinkGD** and extend it with two momentum variants: **
 
 Memory profiled via PyTorch CUDA memory snapshots. Convergence diagnostics include gradient norm trajectories and validation perplexity at fixed token budgets.
 
+## Contributors
+Govind Arun |  Anna Thomas  |  Sai Rahul Meda
