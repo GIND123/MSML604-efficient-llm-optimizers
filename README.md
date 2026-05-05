@@ -1,5 +1,5 @@
-<p align="center"></p> <h1 align="center">Improving SinkGD for Large Language Model
-Fine-Tuning</h1> <p align="center"> <strong>stateless base + lightweight momentum</strong> </p> <p align="center">
+<p align="center"></p> <h1 align="center">Improving SinkGD for Memory Efficient Large
+Language Model Pre Training</h1> <p align="center"> <strong>stateless base + lightweight momentum</strong> </p> <p align="center">
 <a href="https://colab.research.google.com/drive/1WSh68iK5QhcZRTOIVR70v0zZxRWLVKOl?usp=sharing" target="_blank"><img src="https://img.shields.io/badge/notebook-open%20in%20colab-F9AB00?style=flat&logo=googlecolab&logoColor=white" alt="Colab"></a> 
 <img src="https://img.shields.io/badge/hardware-A100-76B900?style=flat&logo=nvidia&logoColor=white" alt="Hardware"> <img src="https://img.shields.io/badge/dataset-C4%20en-blue?style=flat" alt="Dataset"> <img src="https://img.shields.io/badge/models-LLaMA%2060M-blueviolet?style=flat" alt="Models"> </p> <p align="center"> <a href="#what-it-is">What</a> • <a href="#variants">Variants</a> • <a href="#setup">Setup</a> • <a href="#run-it">Run It</a> • <a href="#results">Results</a> </p> 
 
